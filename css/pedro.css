@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body{
+    height: 100%;
+}
+body{
+    background: rgb(54,77,204);
+    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.avatar{
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+.profile{
+    margin-top: 20px;
+    text-align: center;
+}
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+h2{
+    font-size: 16px;
+}
+.social{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 20px 0;
+    
+}
+.social img{
+    width: 33px;
+}
+.liks-social{
+    margin: 0 15px;
+}
+.liks-social li {
+    background: white;
+    margin-bottom: 6px;
+    height: 60px;
+    padding: 5px 10px; 
+    border-radius: 10px;
+    list-style: none;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+.liks-social h4{
+    margin-bottom: 4px;
+    color: rgb(54,77,204);
+    font-size: 14px;
+}
+.liks-social p{
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: #a5a5a5;
+}
+
+a{
+    text-decoration: none;
+}
