@@ -8,7 +8,8 @@ html, body{
     height: 100%;
 }
 body{
-    background: #5800FF;
+    background: rgb(53,1,138);
+    background: linear-gradient(176deg, rgba(53,1,138,1) 0%, rgba(141,0,255,1) 100%);
     color: white;
     font-family: 'Raleway', sans-serif;
 }
